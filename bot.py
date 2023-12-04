@@ -215,7 +215,6 @@ async def start_handler(c: Client, m: Message):
                     ),
                     InlineKeyboardButton(
                         "🌨️ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍",callback_data='about'
-		    ),
 			),
                     InlineKeyboardButton(
                         "🌨️ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url=f"https://t.me/Roofiverse"
