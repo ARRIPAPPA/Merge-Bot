@@ -212,7 +212,7 @@ async def start_handler(c: Client, m: Message):
                 InlineKeyboardButton(
                     '⛅ 𝖴𝗉𝖽𝖺𝗍𝖾𝗌', url='https://t.me/Rokubotz')
             ], [
-                InlineKeyboardButton('🌨️ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍',url='https://t.me/Roofiverse),
+                InlineKeyboardButton('🌨️ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍',url='https://t.me/Roofiverse)
                 InlineKeyboardButton("𝖢𝗅𝗈𝗌𝖾 🔒", callback_data="close")
             ]])
     )
@@ -406,7 +406,7 @@ async def photo_handler(c: Client, m: Message):
     # if m.from_user.id != int(Config.OWNER):
     if not user.allowed:
         res = await m.reply_text(
-            text=f"Hi **{m.from_user.first_name}**\n\n 🛡️ Unfortunately you can't use me\n\n**Contact: 🈲 @{Config.OWNER_USERNAME}** ",
+            text=f"Hi **{m.from_user.first_name}**\n\n 🛡️ Unfortunately you can't use me\n\n**𝖢𝗈𝗇𝗍𝖺𝖼𝗍 ➜ <a href=https://t.me/Snowball_Official>𝖮𝗐𝗇𝖾𝗋</a>** ",
             quote=True,
         )
         del user
