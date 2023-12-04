@@ -228,7 +228,6 @@ async def start_handler(c: Client, m: Message):
                 InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data="start")
                 [InlineKeyboardButton("Close 🔐", callback_data="close")],
             ]
-        ),
     )
 
 @mergeApp.on_message(
