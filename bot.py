@@ -226,7 +226,6 @@ async def start_handler(c: Client, m: Message):
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data="close"),
                 InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data="start")
-                    ),
                 [InlineKeyboardButton("Close 🔐", callback_data="close")],
             ]
         ),
