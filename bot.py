@@ -198,6 +198,14 @@ async def start_handler(c: Client, m: Message):
             res = await m.reply_text(
                 text=f"Hi **{m.from_user.first_name}**\n\n 🛡️ Unfortunately you can't use me\n\n𝖢𝗈𝗇𝗍𝖺𝖼𝗍 ➜ <a href=https://t.me/Snowball_Official>𝖮𝗐𝗇𝖾𝗋</a>",
                 quote=True,
+		    
+		    elif data == "about":
+        await query.message.edit_text(
+            text=Txt.ABOUT_TXT.format(client.mention),
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup([[
+                InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data="close"),
+                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data="start")
             )
             return
     else:
