@@ -206,18 +206,15 @@ async def start_handler(c: Client, m: Message):
     res = await m.reply_text(
         text=f"Hi **{m.from_user.first_name}**\n\n ⚡ I am a file/video merger bot\n\n😎 I can merge Telegram files!, And upload it to telegram\n\n**Check /about for more.",
 	    quote=True,
-        reply_markup=InlineKeyboardMarkup(
-                InlineKeyboardButton("🧑‍💻 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋", url="https://t.me/Snowball_Official"
-                ),
-                    InlineKeyboardButton(
-                        "⛅ 𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/Rokubotz"
-                    ),
-                    InlineKeyboardButton(
-                        "🌨️ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url=f"https://t.me/Roofiverse"
-                    ),
-                ],
-                [InlineKeyboardButton("Close 🔐", callback_data="close")],
-            ]
+        reply_markup=InlineKeyboardMarkup([[
+                InlineKeyboardButton(
+                    '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/llathu63035'),
+                InlineKeyboardButton(
+                    '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/llathu63035')
+            ], [
+                InlineKeyboardButton('☃️ Aʙᴏᴜᴛ', callback_data='about'),
+                InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
+            ]])
         ),
     )
 
