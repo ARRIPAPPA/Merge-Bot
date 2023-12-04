@@ -208,12 +208,12 @@ async def start_handler(c: Client, m: Message):
 	    quote=True,
         reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton(
-                    '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/llathu63035'),
+                    '🧑‍💻 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋', url='https://t.me/Snowball_Official'),
                 InlineKeyboardButton(
-                    '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/llathu63035')
+                    '⛅ 𝖴𝗉𝖽𝖺𝗍𝖾𝗌', url='https://t.me/Rokubotz')
             ], [
-                InlineKeyboardButton('☃️ Aʙᴏᴜᴛ', callback_data='about'),
-                InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
+                InlineKeyboardButton('🌨️ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍',url='https://t.me/Roofiverse),
+                InlineKeyboardButton("𝖢𝗅𝗈𝗌𝖾 🔒", callback_data="close")
             ]])
     )
 
