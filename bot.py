@@ -214,9 +214,20 @@ async def start_handler(c: Client, m: Message):
                         "⛅ 𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/Rokubotz"
                     ),
                     InlineKeyboardButton(
+                        "🌨️ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍",callback_data='about'
+		    ),
+			),
+                    InlineKeyboardButton(
                         "🌨️ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url=f"https://t.me/Roofiverse"
+		    ),
+    elif data == "about":
+        await query.message.edit_text(
+            text=Txt.ABOUT_TXT.format(client.mention),
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup([[
+                InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data="close"),
+                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data="start")
                     ),
-                ],
                 [InlineKeyboardButton("Close 🔐", callback_data="close")],
             ]
         ),
