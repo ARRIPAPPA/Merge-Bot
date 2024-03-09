@@ -2,14 +2,14 @@ import os
 
 
 class Config(object):
-    API_HASH =("d28604398dc13af15dd108bb34a27a54")
-    BOT_TOKEN = ("6460494394:AAEkGWs3MfUMWbZGDBuRJknnu2BlCxmvvMo")
-    TELEGRAM_API = ("7324525")
-    OWNER = ("1966867320")
+    API_HASH =("d8c9b01c863dabacc484c2c06cdd0f6e")
+    BOT_TOKEN = ("5932926601:AAHVnnl6kNepzUGkmxnMzMeu1P9jFPUsusk")
+    TELEGRAM_API = ("16501053")
+    OWNER = ("5422016608")
     OWNER_USERNAME = ("None")
-    PASSWORD = ("iam_roku")
-    DATABASE_URL = ("mongodb+srv://ROKU:ROKU@cluster0.nxjre0s.mongodb.net/?retryWrites=true&w=majority")
-    LOGCHANNEL = ("-1001560632964")  # Add channel id as -100 + Actual ID
+    PASSWORD = ("blaster")
+    DATABASE_URL = ("mongodb+srv://animesaga:animesagas@cluster0.lkpnvsw.mongodb.net/?retryWrites=true&w=majority&")
+    LOGCHANNEL = ("-1001736029601  # Add channel id as -100 + Actual ID
     GDRIVE_FOLDER_ID = os.environ.get("GDRIVE_FOLDER_ID", "root")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING")
     IS_PREMIUM = False
