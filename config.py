@@ -13,5 +13,5 @@ class Config(object):
     GDRIVE_FOLDER_ID = os.environ.get("GDRIVE_FOLDER_ID", "root")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING")
     IS_PREMIUM = False
-    START_PIC = ("https://telegra.ph/file/bb0690bfacfdc008ff788.jpg")
+    START_PIC = ("https://graph.org/file/6b56e482d9865a49ed578.jpg")
     MODES = ["video-video", "video-audio", "video-subtitle", "extract-streams"]
