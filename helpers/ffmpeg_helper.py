@@ -20,7 +20,7 @@ async def MergeVideo(input_file: str, user_id: int, message: Message, format_: s
     :param `format_`: Pass File Extension.
     :return: This will return Merged Video File Path
     """
-    output_vid = f"downloads/{str(user_id)}/[@AnimeKurrollu].{format_.lower()}"
+    output_vid = f"downloads/{str(user_id)}/[@Blaster_Originals].{format_.lower()}"
     file_generator_command = [
         "ffmpeg",
         "-f",
@@ -95,7 +95,7 @@ async def MergeSub(filePath: str, subPath: str, user_id):
             subTrack += 1
     muxcmd.append(f"-metadata:s:s:{subTrack}")
     subTrack += 1
-    subTitle = f"Track {subTrack} - @AnimeKurrollu"
+    subTitle = f"Track {subTrack} - @Blaster_Originals"
     muxcmd.append(f"title={subTitle}")
     muxcmd.append("-c:v")
     muxcmd.append("copy")
