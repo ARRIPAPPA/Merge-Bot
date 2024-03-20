@@ -108,7 +108,7 @@ async def loginHandler(c: Client, m: Message):
             )
         else:
             await m.reply_text(
-                text=f"**Login failed ❌,**\n  🛡️ Unfortunately you can't use me\n\n𝖢𝗈𝗇𝗍𝖺𝖼𝗍 ➜ <a href=https://t.me/AnimeKurrollu>𝖮𝗐𝗇𝖾𝗋</a>",
+                text=f"**Login failed ❌,**\n  🛡️ Unfortunately you can't use me\n\n𝖢𝗈𝗇𝗍𝖺𝖼𝗍 ➜ <a href=https://t.me/BlasterBots>𝖮𝗐𝗇𝖾𝗋</a>",
                 quote=True,
             )
     user.set()
@@ -211,10 +211,10 @@ async def start_handler(c: Client, m: Message):
                 [InlineKeyboardButton("🧑‍💻 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋", url="https://t.me/AnimeKurrollu")],
                 [
                     InlineKeyboardButton(
-                        "⛅ 𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/AnimeKurrollu"
+                        "⛅ 𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/BlasterBots"
                     ),
                     InlineKeyboardButton(
-                        "🌨️ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url=f"https://t.me/AnimeKurrollu"
+                        "🌨️ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url=f"https://t.me/BlasterBots"
                     ),
                 ],
                 [InlineKeyboardButton("Close 🔐", callback_data="close")],
@@ -411,7 +411,7 @@ async def photo_handler(c: Client, m: Message):
     # if m.from_user.id != int(Config.OWNER):
     if not user.allowed:
         res = await m.reply_text(
-            text=f"Hi **{m.from_user.first_name}**\n\n 🛡️ Unfortunately you can't use me\n\n**𝖢𝗈𝗇𝗍𝖺𝖼𝗍 ➜ <a href=https://t.me/Snowball_Official>𝖮𝗐𝗇𝖾𝗋</a>** ",
+            text=f"Hi **{m.from_user.first_name}**\n\n 🛡️ Unfortunately you can't use me\n\n**𝖢𝗈𝗇𝗍𝖺𝖼𝗍 ➜ <a href=https://t.me/BlasterOriginals>𝖮𝗐𝗇𝖾𝗋</a>** ",
             quote=True,
         )
         del user
@@ -501,10 +501,10 @@ async def about_handler(c: Client, m: Message):
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("𝖮𝗐𝗇𝖾𝗋", url="https://t.me/AnimeKurrollu")],
+                [InlineKeyboardButton("𝖮𝗐𝗇𝖾𝗋", url="https://t.me/BlasterOriginals")],
                 [
                     InlineKeyboardButton(
-                        "", url="https://t.me/AnimeKurrollu"
+                        "", url="https://t.me/BlasterOriginals"
                     ),
                     InlineKeyboardButton(
                         "", url=f"https://t.me/{Config.OWNER_USERNAME}"
